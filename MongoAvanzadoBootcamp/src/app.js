@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-const connection = mongoose.connect("mongodb+srv://CoderUser:123@clustercitofeliz.m6oxtjj.mongodb.net/BootcampEcommerce?retryWrites=true&w=majority")
+const connection = mongoose.connect("Tu URL de Mongo aquí")
 
 app.use('/api/users',usersRouter);
 app.use('/api/carts',cartsRouter);
